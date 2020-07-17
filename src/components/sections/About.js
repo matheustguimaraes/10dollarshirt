@@ -4,25 +4,15 @@ import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
+import ExternalLink from '@common/ExternalLink';
 
 const About = () => (
   <StaticQuery
     query={graphql`
       query {
-        art_fast: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "fast" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-
         art_learn: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "learn_yourself" }
+          name: { eq: "cart2" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -31,9 +21,9 @@ const About = () => (
           }
         }
 
-        art_ideas: file(
+        shutup: file(
           sourceInstanceName: { eq: "art" }
-          name: { eq: "ideas" }
+          name: { eq: "obama_icecream" }
         ) {
           childImageSharp {
             fluid(maxWidth: 760) {
@@ -48,32 +38,38 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Not a real online store</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+                This website idea came up as a joke, when my friend said that
+                creating a website requires a lot of options about technology
+                stack, marketing and more. I then remembered this quote from
+                Obama and said that we should build this. He takes it as a joke,
+                I don't.{' '}
               </p>
             </div>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
           </Grid>
           <Grid inverse>
             <Art>
-              <Img fluid={data.art_learn.childImageSharp.fluid} />
+              <Img fluid={data.shutup.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>Barack Obama would use</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+                The 44th president of the United States{' '}
+                <ExternalLink href="https://www.businessinsider.com/obama-hawaii-t-shirt-shop-2016-7">
+                  once joked
+                </ExternalLink>{' '}
+                About when he did must make the toughest decicions, he would
+                imagine moving to Hawaii to open a T-shirt shack that sold only
+                one size (medium) and one color (white). So I build a online
+                shack to do that.{' '}
               </p>
             </div>
           </Grid>
-          <Grid>
+          {/* <Grid>
             <div>
               <h2>Grow and build your ideas</h2>
               <p>
@@ -87,7 +83,7 @@ const About = () => (
             <Art>
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
-          </Grid>
+          </Grid> */}
         </Container>
       </Section>
     )}
