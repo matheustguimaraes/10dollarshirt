@@ -62,7 +62,7 @@ const About = () => (
                 <ExternalLink href="https://www.businessinsider.com/obama-hawaii-t-shirt-shop-2016-7">
                   once joked
                 </ExternalLink>{' '}
-                About when he did must make the toughest decicions, he would
+                about when he did must make the toughest decicions, he would
                 imagine moving to Hawaii to open a T-shirt shack that sold only
                 one size (medium) and one color (white). So I build a online
                 shack to do that.{' '}
