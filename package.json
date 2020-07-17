@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-absurd",
+  "name": "10-dollar-shirt",
   "private": true,
-  "description": "An absurd starter for Gatsby",
+  "description": "10 dollar shirt",
   "version": "0.1.0",
-  "author": "Ajay NS <ajay.ns@outlook.com>",
+  "author": "Matheus Guimaraes <matheusguimr@gmail.com>",
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
     "gatsby": "^2.0.76",
