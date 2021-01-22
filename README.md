@@ -1,28 +1,20 @@
-# gatsby-absurd
+# 10dollarshirt
 
-An absurd Gatsby starter. The collection of illustrations, [absurd.design](https://absurd.design/) by [Diana Valeanu](https://twitter.com/diana_valeanu) is a very fascinating and beautiful project with some pretty thoughtful concepts. Experimentation on how that could be put together on a site ended up as this starter.
-
-![screenshot](https://user-images.githubusercontent.com/20743219/85018804-64ec4e00-b18b-11ea-9aa0-d4be033efff8.png)
-
-[Live Demo](https://gatsby-absurd.vercel.app/)
+We sell for $10 white shirt, thats it.
 
 ## Installation
 
 Install the dependencies:
 
-### `yarn install`
+### `gatsby install`
 
 Run the development server:
 
-### `yarn dev`
+### `gatsby develop`
 
 Production build to `/public`:
 
-### `yarn build`
-
-Cleanup cache (often fixes misc errors when run before `yarn dev`):
-
-### `yarn clean`
+### `gatsby build`
 
 ## Content
 
