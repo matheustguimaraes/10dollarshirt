@@ -1,6 +1,12 @@
 # 10dollarshirt
 
+<p align="center">
+  <img src="screenshot.png">
+</p>
+
 We only sell medium-sized white shirts for $10, that's all.
+
+This website idea came up as a joke, when my friend said that creating a website requires a lot of options about technology stack, marketing and more. I then remembered this quote from Obama and said that we should build this. He takes it as a joke, I don't.
 
 ## Installation
 
