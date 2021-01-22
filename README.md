@@ -1,6 +1,6 @@
 # 10dollarshirt
 
-We sell medium size shirts for $10 white, thats it.
+We only sell medium-sized white shirts for $10, that's all.
 
 ## Installation
 
